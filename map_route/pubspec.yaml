@@ -1,0 +1,47 @@
+name: map_route
+description: A new Flutter project.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  curved_navigation_bar: ^0.3.2
+  flutter:
+    sdk: flutter
+  meta: ^1.1.8
+  simple_animations: ^1.3.11
+  page_transition: ^1.1.5
+  firebase_auth: ^0.15.5+3
+  firebase_core: ^0.4.4+3
+  
+  cloud_firestore: ^0.13.4+2
+  flutter_auth_buttons: ^0.7.0
+  google_sign_in: ^4.3.0
+  
+  
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "iconos/app.png"
+
+
+
+
+flutter:
+
+ 
+  uses-material-design: true
+
+  assets:
+  - assets/images/one.png
+  - assets/images/google.png
